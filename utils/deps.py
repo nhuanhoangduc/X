@@ -8,6 +8,8 @@
 
 import sys
 from _core import *
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 
 #
