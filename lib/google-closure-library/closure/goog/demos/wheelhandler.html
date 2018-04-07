@@ -119,7 +119,7 @@ function handleWheel(e) {
     pixelDeltaY: e.pixelDeltaY,
     pixelDeltaZ: e.pixelDeltaZ,
   };
-  debug.innerText = JSON.stringify(debugObject, undefined, 4);
+  debug.innerText = window.JSON.stringify(debugObject, undefined, 4);
 }
 
 function updateLines() {

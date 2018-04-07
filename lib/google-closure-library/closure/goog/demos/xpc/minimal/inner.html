@@ -38,7 +38,7 @@ function log(msg) {
 
 goog.events.listen(window, 'load', function() {
   // Get the channel configuration from the URI parameter.
-  var cfg = goog.json.parse(
+  var cfg = goog.window.JSON.parse(
       (new goog.Uri(window.location.href)).getParameterValue('xpc'));
 
   // Create the channel.

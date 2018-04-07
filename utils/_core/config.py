@@ -18,31 +18,31 @@ SOFTWARE_HOMEPAGE = 'http://goXTK.com'
 NAMESPACE = 'X'
 
 LICENSE_HEADER = '''/*
- * 
+ *
  *                  xxxxxxx      xxxxxxx
- *                   x:::::x    x:::::x 
- *                    x:::::x  x:::::x  
- *                     x:::::xx:::::x   
- *                      x::::::::::x    
- *                       x::::::::x     
- *                       x::::::::x     
- *                      x::::::::::x    
- *                     x:::::xx:::::x   
- *                    x:::::x  x:::::x  
- *                   x:::::x    x:::::x 
+ *                   x:::::x    x:::::x
+ *                    x:::::x  x:::::x
+ *                     x:::::xx:::::x
+ *                      x::::::::::x
+ *                       x::::::::x
+ *                       x::::::::x
+ *                      x::::::::::x
+ *                     x:::::xx:::::x
+ *                    x:::::x  x:::::x
+ *                   x:::::x    x:::::x
  *              THE xxxxxxx      xxxxxxx TOOLKIT
- *                    
+ *
  *                  http://www.goXTK.com
- *                   
+ *
  * Copyright (c) 2012 The X Toolkit Developers <dev@goXTK.com>
- *                   
+ *
  *    The X Toolkit (XTK) is licensed under the MIT License:
  *      http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  *      "Free software" is a matter of liberty, not price.
  *      "Free" as in "free speech", not as in "free beer".
  *                                         - Richard M. Stallman
- * 
+ *
  * FUELED BY:
  *  - the wonderful Constructive Solid Geometry library by Evan Wallace (http://madebyevan.com)
  *    LICENSE: https://raw.github.com/xtk/X/master/lib/csg/LICENSE
@@ -78,7 +78,7 @@ CLOSUREGOOGBASE_PATH = os.path.normpath( os.path.join( CLOSURELIBRARY_PATH, 'goo
 
 DOC_TEMPLATES_PATH = os.path.normpath( os.path.join( XBUILD_PATH, '_core', 'templates/' ) )
 
-BUILD_OUTPUT_PATH = os.path.normpath( os.path.join( XBUILD_PATH , SOFTWARE_SHORT.lower() + '.js' ) )
+BUILD_OUTPUT_PATH = os.path.normpath( os.path.join( SOFTWARE_PATH, 'dist' , SOFTWARE_SHORT.lower() + '.js' ) )
 DEPS_OUTPUT_PATH = os.path.normpath( os.path.join( SOFTWARE_PATH , SOFTWARE_SHORT.lower() + '-deps.js' ) )
 DOC_OUTPUT_PATH = os.path.normpath( os.path.join( SOFTWARE_PATH , 'doc/' ) )
 

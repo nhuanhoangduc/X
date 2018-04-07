@@ -122,7 +122,7 @@ def GetFileContents(path):
   """
   fileobj = None
   try:
-    fileobj = codecs.open(path, encoding='utf-8-sig')
+    fileobj = codecs.open(path, "r",encoding='utf-8', errors='ignore')
     return fileobj.read()
   except IOError as error:
     raise IOError('An error occurred opening or reading the file: %s. %s'
